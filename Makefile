@@ -17,6 +17,7 @@ else
 endif
 
 SRC 		=	src/main.c						\
+				src/setup_struct.c 				\
 				src/tools/strcmp.c				\
 				src/tools/strlen.c				\
 				src/argument/set_o.c			\
