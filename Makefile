@@ -20,6 +20,7 @@ SRC 		=	src/main.c						\
 				src/setup_struct.c 				\
 				src/tools/strcmp.c				\
 				src/tools/strlen.c				\
+				src/tools/is_valid_file.c		\
 				src/argument/set_o.c			\
 
 OBJ			=	$(SRC:.c=.o)

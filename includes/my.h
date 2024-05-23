@@ -18,5 +18,6 @@
     unsigned long strlen (const char *A);
     void set_o (int iter, char **argv, ALL *GLOBAL);
     void setup_struct (ALL *GLOBAL);
+    int is_valid_file (const char *str);
 
 #endif /* !MY_H_ */
