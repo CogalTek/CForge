@@ -18,10 +18,13 @@ endif
 
 SRC 		=	src/main.c						\
 				src/setup_struct.c 				\
+				src/tools/size.c				\
 				src/tools/strcmp.c				\
 				src/tools/strlen.c				\
 				src/tools/is_valid_file.c		\
 				src/argument/set_o.c			\
+				src/argument/add_header_file.c	\
+				src/argument/add_c_file.c		\
 
 OBJ			=	$(SRC:.c=.o)
 

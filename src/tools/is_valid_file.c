@@ -16,7 +16,8 @@ int return_error (const char *str)
 int is_valid_file (const char *str)
 {
     for (int i = 0; str[i] != '\0'; i++)
-        if ((str[i] < 65 || str[i] > 122) && str[i] != '.' && str[i] != '_' && str[i] != '~' && str[i] != '/')
+        if ((str[i] < 65 || str[i] > 122) && str[i] != '.' && str[i] != '_' &&
+        str[i] != '~' && str[i] != '/')
             return 0;
     if (str[strlen(str) - 2] == '.') {
         if (str[strlen(str) - 1] == 'o')
@@ -24,5 +25,5 @@ int is_valid_file (const char *str)
         else if (str[strlen(str) - 1] == 'h')
             return access(str, F_OK) == 0 ? 2 : return_error(str);
     }
-    return 0;
+    return return_error(str);
 }

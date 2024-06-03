@@ -19,5 +19,8 @@
     void set_o (int iter, char **argv, ALL *GLOBAL);
     void setup_struct (ALL *GLOBAL);
     int is_valid_file (const char *str);
+    int size (char **ar);
+    void add_header_file (ALL *GLOBAL, const char* str);
+    void add_c_file (ALL *GLOBAL, const char* str);
 
 #endif /* !MY_H_ */
