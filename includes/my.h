@@ -13,7 +13,6 @@
     #include <unistd.h>
     #include "./settings.h"
 
-    int help (void);
     int strcmp (const char *A, const char *B);
     unsigned long strlen (const char *A);
     void set_o (int iter, char **argv, ALL *GLOBAL);
@@ -22,5 +21,7 @@
     int size (char **ar);
     void add_header_file (ALL *GLOBAL, const char* str);
     void add_c_file (ALL *GLOBAL, const char* str);
+    int Lexing (ALL *GLOBAL, int index);
+    void display_input_file (ALL *GLOBAL);
 
 #endif /* !MY_H_ */

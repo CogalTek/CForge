@@ -17,6 +17,7 @@ else
 endif
 
 SRC 		=	src/main.c						\
+				src/lexing.c 					\
 				src/setup_struct.c 				\
 				src/tools/size.c				\
 				src/tools/strcmp.c				\
