@@ -1,5 +1,5 @@
 /*
-** EPITECH PROJECT, 2024
+** C0GAL PROJECT, 2024
 ** CFORGE
 ** File description:
 ** is_valid_file
@@ -20,7 +20,7 @@ int is_valid_file (const char *str)
         str[i] != '~' && str[i] != '/')
             return 0;
     if (str[strlen(str) - 2] == '.') {
-        if (str[strlen(str) - 1] == 'o')
+        if (str[strlen(str) - 1] == 'c')
             return access(str, F_OK) == 0 ? 1 : return_error(str);
         else if (str[strlen(str) - 1] == 'h')
             return access(str, F_OK) == 0 ? 2 : return_error(str);

@@ -1,5 +1,5 @@
 /*
-** EPITECH PROJECT, 2024
+** C0GAL PROJECT, 2024
 ** Projet
 ** File description:
 ** main
@@ -18,11 +18,11 @@ static int verif(ALL *GLOBAL)
         }
         char *token = strtok(tmp, "/");
         while (token) {
-            if (!strcmp(token, "main.o"))
+            if (!strcmp(token, "main.c"))
                 break;
             token = strtok(NULL, "/");
         }
-        if (token && !strcmp(token, "main.o")) {
+        if (token && !strcmp(token, "main.c")) {
             free(tmp);
             return Lexing(GLOBAL, i);
         }

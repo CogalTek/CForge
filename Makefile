@@ -19,6 +19,7 @@ endif
 SRC 		=	src/main.c						\
 				src/lexing.c 					\
 				src/setup_struct.c 				\
+				src/read_all_file.c 			\
 				src/tools/size.c				\
 				src/tools/strcmp.c				\
 				src/tools/strlen.c				\

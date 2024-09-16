@@ -1,5 +1,5 @@
 /*
-** EPITECH PROJECT, 2024
+** C0GAL PROJECT, 2024
 ** CFORGE
 ** File description:
 ** debug

@@ -1,5 +1,5 @@
 /*
-** EPITECH PROJECT, 2024
+** C0GAL PROJECT, 2024
 ** Projet
 ** File description:
 ** my
@@ -23,5 +23,6 @@
     void add_c_file (ALL *GLOBAL, const char* str);
     int Lexing (ALL *GLOBAL, int index);
     void display_input_file (ALL *GLOBAL);
+    int read_all_file (ALL *GLOBAL, int index);
 
 #endif /* !MY_H_ */
